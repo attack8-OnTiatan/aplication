@@ -1,18 +1,10 @@
-import React,{Component} from "react";
-export class Address extends Component{
-render(){
+import React from "react";
+const Address= (props)=> {
+
     return(
-<div className='p.Address'>
-<Form.Group>
-    <Form.Label>Email</Form.Label>
-<Form.Controle>
-    <input type='email' placeholder='Exemple@gmail.com'></input>
-</Form.Controle>
-</Form.Group>
-
-
-</div>
-)
-
+        <div className="p.Address">
+        <h2>{props.personAddress.Email}  </h2>
+        </div>
+)  
 }
-}
+export default Address ;

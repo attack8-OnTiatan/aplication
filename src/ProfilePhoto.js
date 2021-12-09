@@ -1,11 +1,12 @@
-import React,{Component} from "react";
-export class ProfilePhoto extends Component{
-render(){
+import React from "react";
+import './App.css';
+    const ProfilePhoto = ()=> { 
     return(
 <div className='P.image'>
-<img src='https://images.app.goo.gl/2AJDWX3ZSS5wkhjb7'/>
+<img src='https://www.codeur.com/blog/wp-content/uploads/2019/04/framework-developpement-web.jpg'/>
 </div>
 )
 
+
 }
-}
+export default ProfilePhoto ;

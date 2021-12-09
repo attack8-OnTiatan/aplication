@@ -1,11 +1,17 @@
-import React,{Component} from "react";
-export class FullName extends Component{
-render(){
-    return(
-<div className='P.fullname'>
-<h2>Anwer ben saad</h2>
-</div>
+import React from "react";
+
+const FullName = (props) => {
+  return(
+
+<div className="pFullName">
+ 
+   <h1> {props.person.firstName} {props.person.lastName} </h1>
+
+   </div>
+
+
 )
 
-}
-}
+
+    }
+export default FullName ;
